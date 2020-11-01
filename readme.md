@@ -5,7 +5,7 @@ The goal of this section is to record breakthroughs in my logic understanding, w
 Currently, I've gotten stuck at certain points within two different javascript learning platforms, so this is my calculated attempt to resolve that hinderance. 
 
 ### Learning Process
-1. Order to Learn New Subjects
+1. ***Order to Learn New Subjects***
    - Go through a topic on Andrei Udemy Course; i.e. 'Arrays'
      - https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery
    - Go through the same topic on 2 other learning sites (fill these in once I determine best)
@@ -13,7 +13,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
    - Go through logic exercises on saved sites
    - Look for small project where I can implement what I learned
    - Note the logic in my notes
-2. Active Process of Writing Code:
+2. ***Active Process of Writing Code***
    - Write down logic in english
    - Break down logic into small steps of code
    - console.log every step of the way to make sure it works
@@ -25,15 +25,35 @@ Currently, I've gotten stuck at certain points within two different javascript l
 - [Javascript Journey Notes](#javascript-journey-notes)
     - [Learning Process](#learning-process)
   - [Table of Contents](#table-of-contents)
-    - [Section 1](#section-1)
+    - [Section 1 - Comparisons and Variables](#section-1---comparisons-and-variables)
     - [Section 1.1](#section-11)
     - [Section 1.1.1](#section-111)
     - [Section 2](#section-2)
     - [Section 2.1](#section-21)
 
 
-### Section 1
+### Section 1 - Comparisons and Variables
 Overall what I learned, with code example
+
+Key Comparisons and Math: 
+```
+=== is 'does A equal to B'; true or false?
+!== is 'does A not equal to B'; true or false?
+++ is an increment +1
+-- is a decrement -1
+** puts variable to the power of second operator
+% is a remainder of division calculation
+```
+
+Key Operators:
+```
+'&&' means And
+  - '(x < 10 && y > 1) is true
+'||' means Or
+  - '(x === 5 || y === 5) is false'
+'!' means Not
+  - '!(x === y) is true'
+```
 
 
 ### Section 1.1
