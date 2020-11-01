@@ -30,6 +30,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
     - [Section 1.1.1](#section-111)
     - [Section 2](#section-2)
     - [Section 2.1](#section-21)
+    - [Section 2.2](#section-22)
 
 
 ### Section 1 - Comparisons and Variables
@@ -55,13 +56,35 @@ Key Operators:
   - '!(x === y) is true'
 ```
 
+Key Syntax for Variables:
+With ES6, use 'let' and 'const' instead of 'var'
+```
+let <variable name> = "output text" + "something";
+don't forget to call the variable name for its output
+```
+
+Variables:
+```
+Number(stringName) - Change a string into a number
+prompt("displayText") - popup prompt to enter value
+alert("displayText") - popup alert to display text
+
+ex: let first = prompt("enter first number");
+this stores the entered prompt value into the variable 'first'
+```
+
 
 ### Section 1.1
 snippets to help
 
 ### Section 1.1.1
 Project 1 - relevant project
+simple prompt calculator - link to github project
 
 ### Section 2
 
 ### Section 2.1
+snippets to help
+
+### Section 2.2
+Project 2 - relevant project tied in with other things before
