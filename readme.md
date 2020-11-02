@@ -22,11 +22,10 @@ Currently, I've gotten stuck at certain points within two different javascript l
        - https://www.coursera.org/learn/website-coding/home/week/3
        - https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/4
    - **Quizzes/Exercises**
+       - https://www.w3schools.com/js/exercise_js.asp
        - https://www.freecodecamp.org/learn/
        - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps
        - https://javascript.info/
-       - https://www.w3schools.com/js/default.asp
-       - https://edabit.com/challenges
    - **Small Projects**
    - **Record logic in notes**
   
@@ -85,6 +84,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
       - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math
     - Operator Precedence
       - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+      - https://javascript.info/operators
 
 **Key Syntax for Variables:**
 - With ES6, use 'let' and 'const' instead of 'var'
@@ -153,18 +153,11 @@ myCar.make;
 **Methods and String Manipulation:**
 - Actions that are performed as variables
   - Adding properties and methods to strings by string.command
-  - for example, instead of a static variable in an object, a method would be a formula as a variable
+  - for example, instead of a static property in an object, a method would be an action as a property
 ```
 let message = "Hello";
 message = message.toUpperCase(); //this is manipulation
 console.log(message); //shows 'HELLO'
-
-Number(stringName) - Change a string into a number
-prompt("displayText") - popup prompt to enter value
-alert("displayText") - popup alert to display text
-
-ex: let first = prompt("enter first number");
-this stores the entered prompt value into the variable 'first'
 ```
   - Resources: 
     - Methods: big list on left panel
@@ -172,6 +165,21 @@ this stores the entered prompt value into the variable 'first'
       - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods
       - https://www.w3schools.com/js/js_string_methods.asp
       - https://www.w3schools.com/jsref/jsref_obj_string.asp
+
+**Interaction:**
+```
+Number(stringName) - Change a string into a number
+prompt("displayText") - popup prompt to enter value
+alert("displayText") - popup alert to display text
+
+ex: let first = prompt("enter first number");
+this stores the entered prompt value into the variable 'first'
+```
+  - Interaction: 
+    - Examples:
+      - https://javascript.info/alert-prompt-confirm
+      - https://javascript.info/type-conversions
+
 
 ### Section 1.1
 snippets to help
