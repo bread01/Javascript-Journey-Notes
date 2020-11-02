@@ -9,7 +9,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
    - *Per major topic, go through these links until I feel comfortable understanding the logic on the topic.* 
      - Don't have to go through all, but minimum 2.
    - Go through a topic on Andrei Udemy Course; i.e. 'Arrays'
-     - https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery
+       - https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery
      - Go through the same topic on The Odin Project
        - https://theodinproject.com/courses/foundations
      - Go through same topic on Pluralsight Javascript: getting started course
@@ -18,18 +18,25 @@ Currently, I've gotten stuck at certain points within two different javascript l
        - https://www.youtube.com/watch?v=W6NZfCO5SIk
      - Go through same topic on Scotch.io
        - https://scotch.io/courses/getting-started-with-javascript-for-web-development/types-and-variables
+     - Go through edabit
+       - https://edabit.com/tutorial/javascript
      - Go through linkedin learning course
        - https://www.linkedin.com/learning/learning-the-javascript-language-2/learn-the-language-of-the-internet?u=2045532
+     - Go through rithmschool
+       - https://www.rithmschool.com/courses/javascript
      - Go through Codecademy
        - https://www.codecademy.com/learn
      - Go through coursera free courses
        - https://www.coursera.org/learn/website-coding/home/week/3
        - https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/4
-   - 2 other learning sites (fill these in once I determine best)
-       - If logic is still not clear, continue to go through other learning sites
-   - Go through logic exercises on saved sites
+   - Go through logic quizzes/exercises on saved sites
+       - https://www.freecodecamp.org/learn/
+       - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps
+       - https://javascript.info/
+       - https://www.w3schools.com/js/default.asp
+       - https://edabit.com/challenges
    - Look for small project where I can implement what I learned
-   - Note the logic in my notes
+   - Record the logic in my notes
 2. ***Active Process of Writing Code***
    - Write down logic in english
    - Break down logic into small steps of code
@@ -83,7 +90,6 @@ Concatenation:
       - https://www.w3schools.com/js/js_numbers.asp
       - https://www.w3schools.com/js/js_arithmetic.asp
       - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math
-      - 
 
 **Key Syntax for Variables:**
 With ES6, use 'let' and 'const' instead of 'var'
@@ -108,7 +114,6 @@ this stores the entered prompt value into the variable 'first'
   - Resources: 
     - Variables:
       - https://javascript.info/variables
-      - 
 
 
 ### Section 1.1
