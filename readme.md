@@ -9,12 +9,18 @@ Currently, I've gotten stuck at certain points within two different javascript l
   - [Table of Contents](#table-of-contents)
     - [Learning Process](#learning-process)
   - [Section 1 - Basic Terminology and Structure](#section-1---basic-terminology-and-structure)
-      - [A. Terminology](#a-terminology)
-      - [B. Key Operators and Comparisons](#b-key-operators-and-comparisons)
-    - [Section 1.1: Projects](#section-11-projects)
+      - [Terminology](#terminology)
+      - [Key Operators and Comparisons](#key-operators-and-comparisons)
+      - [Key Syntax for Variables](#key-syntax-for-variables)
+      - [Key Syntax for Strings](#key-syntax-for-strings)
+      - [Objects](#objects)
+      - [Methods and String Manipulation](#methods-and-string-manipulation)
+      - [Interaction](#interaction)
+    - [Section 1: Projects](#section-1-projects)
   - [Section 2: Program Flow](#section-2-program-flow)
-    - [Section 2.1](#section-21)
-    - [Section 2.2](#section-22)
+      - [Conditionals: if...else](#conditionals-ifelse)
+    - [Section 2: Projects](#section-2-projects)
+    - [Section 2: Snippets](#section-2-snippets)
 
 ### Learning Process
   1. ***Documentation***: Two minimum for logic understanding
@@ -48,7 +54,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
       - Write detailed comments on each section of code while learning
 
 ## Section 1 - Basic Terminology and Structure
-#### A. Terminology ####
+#### Terminology
 - Operator vs Operand:
   - Operator: function that performs the operation
   - Operand: input to that operator function
@@ -58,7 +64,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
 - Concatenation:
   - When things are combined; join together
 
-#### B. Key Operators and Comparisons ####
+#### Key Operators and Comparisons
 ```
 '==' is 'does A equal to B, regardless of type; true or false? ex: 1 == "1" is true
 '===' is 'does A equal to B,' including they type; true or false? ex: 1 === "1" is false
@@ -84,7 +90,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
       - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
       - https://javascript.info/operators
 
-**Key Syntax for Variables:**
+#### Key Syntax for Variables
 - With ES6, use 'let' and 'const' instead of 'var'
   - const: identifier that *can't* be updated/re-declared. Best for assigning variable throughout document. Block scoped{} just like 'let'
   - let: *can* be updated/re-declared, but only in same block {} it's defined in. Best for loops and algorithms. For a real world example, having a base price on ecommerce site using 'let', and altering it later on via sales.
@@ -104,7 +110,7 @@ don't forget to call the variable name for its output
     - Variables:
       - https://javascript.info/variables
 
-**Key Syntax for Strings:**
+#### Key Syntax for Strings
 - Utilize "" instead of '' for quotes and text for ease-of-life
 - ` can be used for quotes but includes whitespace and strings
 ```
@@ -114,7 +120,7 @@ is great`;
 is great'
 ```
 
-**Objects:**
+#### Objects
 - Like a variable but with properties and methods. Think of a file cabinet where the drawer is labeled, and each folder in the drawer is a property value of that drawer(object).
   - Object is car
     - i.e. let car
@@ -148,7 +154,7 @@ myCar.make;
       - https://www.w3schools.com/js/js_objects.asp
       - https://javascript.info/object
 
-**Methods and String Manipulation:**
+#### Methods and String Manipulation
 - Actions that are performed as variables
   - Adding properties and methods to strings by string.command
   - for example, instead of a static property in an object, a method would be an action as a property
@@ -164,7 +170,7 @@ console.log(message); //shows 'HELLO'
       - https://www.w3schools.com/js/js_string_methods.asp
       - https://www.w3schools.com/jsref/jsref_obj_string.asp
 
-**Interaction:**
+#### Interaction
 ```
 Number(stringName) - Change a string into a number
 prompt("displayText") - popup prompt to enter value
@@ -179,16 +185,14 @@ this stores the entered prompt value into the variable 'first'
       - https://javascript.info/type-conversions
 
 
-### Section 1.1: Projects
+### Section 1: Projects
 [Simple Prompt Calculator](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Section-1/Simple-Calculator)
 
 
 ## Section 2: Program Flow
-**Conditionals: if...else**
+#### Conditionals: if...else
 - blurgh
 
-### Section 2.1
-Project 2 - relevant project tied in with other things before
+### Section 2: Projects
 
-### Section 2.2
-snippets to help
+### Section 2: Snippets
