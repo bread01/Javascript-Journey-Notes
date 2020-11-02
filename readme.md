@@ -4,6 +4,17 @@ The goal of this section is to record breakthroughs in my logic understanding, w
 
 Currently, I've gotten stuck at certain points within two different javascript learning platforms, so this is my calculated attempt to resolve that hinderance. 
 
+## Table of Contents
+- [Javascript Journey Notes](#javascript-journey-notes)
+  - [Table of Contents](#table-of-contents)
+    - [Learning Process](#learning-process)
+  - [Section 1 - Basic Terminology and Structure](#section-1---basic-terminology-and-structure)
+      - [Terminology:](#terminology)
+    - [Section 1.1: Projects](#section-11-projects)
+  - [Section 2: Program Flow](#section-2-program-flow)
+    - [Section 2.1](#section-21)
+    - [Section 2.2](#section-22)
+
 ### Learning Process
   1. ***Documentation***: Two minimum for logic understanding
       - Go through a topic on Andrei Udemy Course; i.e. 'Arrays'
@@ -35,21 +46,8 @@ Currently, I've gotten stuck at certain points within two different javascript l
       - console.log every step of the way to make sure it works
       - Write detailed comments on each section of code while learning
 
-
-
-## Table of Contents
-- [Javascript Journey Notes](#javascript-journey-notes)
-    - [Learning Process](#learning-process)
-  - [Table of Contents](#table-of-contents)
-    - [Section 1 - Basic Terminology and Structure](#section-1---basic-terminology-and-structure)
-    - [Section 1.1: Projects](#section-11-projects)
-    - [Section 2](#section-2)
-    - [Section 2.1](#section-21)
-    - [Section 2.2](#section-22)
-
-
-### Section 1 - Basic Terminology and Structure
-**Terminology:**
+## Section 1 - Basic Terminology and Structure
+#### Terminology: ####
 - Operator vs Operand:
   - Operator: function that performs the operation
   - Operand: input to that operator function
@@ -181,13 +179,15 @@ this stores the entered prompt value into the variable 'first'
 
 
 ### Section 1.1: Projects
-[Simple Prompt Calculator:](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Section-1/Simple-Calculator)
+[Simple Prompt Calculator](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Section-1/Simple-Calculator)
 
 
-### Section 2
+## Section 2: Program Flow
+**Conditionals: if...else**
+- blurgh
 
 ### Section 2.1
-snippets to help
+Project 2 - relevant project tied in with other things before
 
 ### Section 2.2
-Project 2 - relevant project tied in with other things before
+snippets to help
