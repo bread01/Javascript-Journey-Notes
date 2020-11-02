@@ -58,10 +58,10 @@ Currently, I've gotten stuck at certain points within two different javascript l
   - ex: 3 + 4 = 7; 
   - Operator is + and =
   - Operand is 3 and 4; the inputs to the operation
-Concatenation:
-  - When things are combined
+- Concatenation:
+  - When things are combined; join together
 
-**Key Operators**:
+**Key Operators and Comparisons**:
 ```
 '==' is 'does A equal to B, regardless of type; true or false? ex: 1 == "1" is true
 '===' is 'does A equal to B,' including they type; true or false? ex: 1 === "1" is false
@@ -169,6 +169,8 @@ myCar.make;
 - Actions that are performed as variables
   - for example, instead of a static variable in an object, a method would be a formula as a variable
 ```
+variable.toUpperCase(); //a basic method
+
 Number(stringName) - Change a string into a number
 prompt("displayText") - popup prompt to enter value
 alert("displayText") - popup alert to display text
@@ -176,6 +178,10 @@ alert("displayText") - popup alert to display text
 ex: let first = prompt("enter first number");
 this stores the entered prompt value into the variable 'first'
 ```
+  - Resources: 
+    - Methods: big list on left panel
+      - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+      - https://www.w3schools.com/js/js_string_methods.asp
 
 ### Section 1.1
 snippets to help
