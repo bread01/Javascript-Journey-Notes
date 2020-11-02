@@ -8,7 +8,9 @@ Currently, I've gotten stuck at certain points within two different javascript l
 1. ***Order to Learn New Subjects***
    - Go through a topic on Andrei Udemy Course; i.e. 'Arrays'
      - https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery
-   - Go through the same topic on 2 other learning sites (fill these in once I determine best)
+   - Go through the same topic on The Odin Project
+     - https://theodinproject.com/courses/foundations
+   - 2 other learning sites (fill these in once I determine best)
        - If logic is still not clear, continue to go through other learning sites
    - Go through logic exercises on saved sites
    - Look for small project where I can implement what I learned
@@ -25,7 +27,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
 - [Javascript Journey Notes](#javascript-journey-notes)
     - [Learning Process](#learning-process)
   - [Table of Contents](#table-of-contents)
-    - [Section 1 - Comparisons and Variables](#section-1---comparisons-and-variables)
+    - [Section 1 - Comparisons, Operators, Variables](#section-1---comparisons-operators-variables)
     - [Section 1.1](#section-11)
     - [Section 1.1.1](#section-111)
     - [Section 2](#section-2)
@@ -33,33 +35,49 @@ Currently, I've gotten stuck at certain points within two different javascript l
     - [Section 2.2](#section-22)
 
 
-### Section 1 - Comparisons and Variables
-Overall what I learned, with code example
-
-Key Comparisons and Math: 
-```
-=== is 'does A equal to B'; true or false?
-!== is 'does A not equal to B'; true or false?
-++ is an increment +1
--- is a decrement -1
-** puts variable to the power of second operator
-% is a remainder of division calculation
-```
+### Section 1 - Comparisons, Operators, Variables
+Terminology:
+Operator vs Operand:
+  - Operator: function that performs the operation
+  - Operand: input to that operator function
+  - ex: 3 + 4 = 7; 
+  - Operator is + and =
+  - Operand is 3 and 4; the inputs to the operation
+Concatenation:
+  - When things are combined
 
 Key Operators:
 ```
+'==' is 'does A equal to B, regardless of type; true or false? ex: 1 == "1" is true
+'===' is 'does A equal to B,' including they type; true or false? ex: 1 === "1" is false
+'!==' is 'does A not equal to B'; true or false?
+'++' is an increment +1
+'--' is a decrement -1
+'**' puts variable to the power of second operator
+'%' is a remainder of division calculation
 '&&' means And
   - '(x < 10 && y > 1) is true
 '||' means Or
   - '(x === 5 || y === 5) is false'
 '!' means Not
   - '!(x === y) is true'
+'return variableName' means it executes the referenced variable
 ```
+  - Resources: 
+    - Numbers and Math
+      - https://www.w3schools.com/js/js_numbers.asp
+      - https://www.w3schools.com/js/js_arithmetic.asp
+      - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math
+      - 
 
 Key Syntax for Variables:
 With ES6, use 'let' and 'const' instead of 'var'
+  - const: identifier that *can't* be updated/re-declared. Best for assigning variable throughout document, outside of block {}. Block scoped{} just like 'let'
+  - let: *can* be updated/re-declared; only used in block {} it's defined in. Best for loops and algorithms.
 ```
-let <variable name> = "output text" + "something";
+let <variableName> = "output text" + "something";
+this means 'variableName' is the sum of those two
+
 don't forget to call the variable name for its output
 ```
 
@@ -72,6 +90,10 @@ alert("displayText") - popup alert to display text
 ex: let first = prompt("enter first number");
 this stores the entered prompt value into the variable 'first'
 ```
+  - Resources: 
+    - Variables:
+      - https://javascript.info/variables
+      - 
 
 
 ### Section 1.1
