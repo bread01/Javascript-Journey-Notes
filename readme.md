@@ -5,10 +5,7 @@ The goal of this section is to record breakthroughs in my logic understanding, w
 Currently, I've gotten stuck at certain points within two different javascript learning platforms, so this is my calculated attempt to resolve that hinderance. 
 
 ### Learning Process
-1. ***Order to Learn New Subjects***
-   - *Per major topic, go through these links until I feel comfortable understanding the logic on the topic.* 
-     - Don't have to go through all, but minimum 2.
-   - **Documentation**
+1. **Documentation**: Two minimum for logic understanding
      - Go through a topic on Andrei Udemy Course; i.e. 'Arrays'
        - https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery
      - Go through the same topic on The Odin Project
