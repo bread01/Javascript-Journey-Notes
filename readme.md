@@ -7,7 +7,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
 ### Learning Process
   1. ***Documentation***: Two minimum for logic understanding
       - Go through a topic on Andrei Udemy Course; i.e. 'Arrays'
-      - https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery
+        - https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery
      - Go through the same topic on The Odin Project
        - https://theodinproject.com/courses/foundations
      - Go through same topic on Pluralsight Javascript: getting started course
@@ -31,10 +31,10 @@ Currently, I've gotten stuck at certain points within two different javascript l
    - **Record logic in notes**
   
   2. ***Active Process of Writing Code***
-   - Write down logic in english
-   - Break down logic into small steps of code
-   - console.log every step of the way to make sure it works
-   - Write detailed comments on each section of code while learning
+      - Write down logic in english
+      - Break down logic into small steps of code
+      - console.log every step of the way to make sure it works
+      - Write detailed comments on each section of code while learning
 
 
 
