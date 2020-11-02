@@ -8,7 +8,8 @@ Currently, I've gotten stuck at certain points within two different javascript l
 1. ***Order to Learn New Subjects***
    - *Per major topic, go through these links until I feel comfortable understanding the logic on the topic.* 
      - Don't have to go through all, but minimum 2.
-   - Go through a topic on Andrei Udemy Course; i.e. 'Arrays'
+   - **Documentation**
+     - Go through a topic on Andrei Udemy Course; i.e. 'Arrays'
        - https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery
      - Go through the same topic on The Odin Project
        - https://theodinproject.com/courses/foundations
@@ -29,14 +30,14 @@ Currently, I've gotten stuck at certain points within two different javascript l
      - Go through coursera free courses
        - https://www.coursera.org/learn/website-coding/home/week/3
        - https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/4
-   - Go through logic quizzes/exercises on saved sites
+   - **Quizzes/Exercises**
        - https://www.freecodecamp.org/learn/
        - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps
        - https://javascript.info/
        - https://www.w3schools.com/js/default.asp
        - https://edabit.com/challenges
-   - Look for small project where I can implement what I learned
-   - Record the logic in my notes
+   - **Small Projects**
+   - **Record logic in notes**
 2. ***Active Process of Writing Code***
    - Write down logic in english
    - Break down logic into small steps of code
