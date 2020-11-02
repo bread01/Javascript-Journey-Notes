@@ -24,14 +24,12 @@ Currently, I've gotten stuck at certain points within two different javascript l
        - https://www.codecademy.com/learn
        - https://www.coursera.org/learn/website-coding/home/week/3
        - https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/4
-  
    - **Quizzes/Exercises**
        - https://www.freecodecamp.org/learn/
        - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps
        - https://javascript.info/
        - https://www.w3schools.com/js/default.asp
        - https://edabit.com/challenges
-  
    - **Small Projects**
    - **Record logic in notes**
   
