@@ -42,8 +42,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
     - [Learning Process](#learning-process)
   - [Table of Contents](#table-of-contents)
     - [Section 1 - Basic Terminology and Structure](#section-1---basic-terminology-and-structure)
-    - [Section 1.1](#section-11)
-    - [Section 1.1.1](#section-111)
+    - [Section 1.1: Projects](#section-11-projects)
     - [Section 2](#section-2)
     - [Section 2.1](#section-21)
     - [Section 2.2](#section-22)
@@ -181,12 +180,9 @@ this stores the entered prompt value into the variable 'first'
       - https://javascript.info/type-conversions
 
 
-### Section 1.1
-snippets to help
+### Section 1.1: Projects
+[Simple Prompt Calculator:](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Section-1/Simple-Calculator)
 
-### Section 1.1.1
-Project 1 - relevant project
-simple prompt calculator - link to github project
 
 ### Section 2
 
