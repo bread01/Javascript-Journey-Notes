@@ -52,7 +52,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
 
 ### Section 1 - Comparisons, Operators, Variables
 **Terminology:**
-Operator vs Operand:
+- Operator vs Operand:
   - Operator: function that performs the operation
   - Operand: input to that operator function
   - ex: 3 + 4 = 7; 
@@ -85,7 +85,7 @@ Concatenation:
       - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math
 
 **Key Syntax for Variables:**
-With ES6, use 'let' and 'const' instead of 'var'
+- With ES6, use 'let' and 'const' instead of 'var'
   - const: identifier that *can't* be updated/re-declared. Best for assigning variable throughout document, outside of block {}. Block scoped{} just like 'let'
   - let: *can* be updated/re-declared; only used in block {} it's defined in. Best for loops and algorithms.
 ```
