@@ -108,28 +108,13 @@ don't forget to call the variable name for its output
 
 **Key Syntax for Strings:**
 - Utilize "" instead of '' for quotes and text for ease-of-life
-- ` ` can be used for quotes but includes whitespace and strings
+- ` can be used for quotes but includes whitespace and strings
 ```
 let userName = `Andrea
 is great`;
 //gives value 'Andrea
-//is great'
+is great'
 ```
-
-**String Manipulation:**
-- Adding properties and methods to strings by string.command
-```
-let message = "Hello";
-message = message.toUpperCase(); //this is manipulation
-console.log(message); //shows 'HELLO'
-```
-  - Resources: 
-    - Strings:
-      - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
-      - https://www.w3schools.com/js/js_string_methods.asp
-      - https://www.w3schools.com/jsref/jsref_obj_string.asp
-      - https://www.w3schools.com/js/js_string_methods.asp
-      - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods
 
 **Objects:**
 - Like a variable but with properties and methods. Think of a file cabinet where the drawer is labeled, and each folder in the drawer is a property value of that drawer(object).
@@ -165,11 +150,14 @@ myCar.make;
       - https://www.w3schools.com/js/js_objects.asp
       - https://javascript.info/object
 
-**Methods:**
+**Methods and String Manipulation:**
 - Actions that are performed as variables
+  - Adding properties and methods to strings by string.command
   - for example, instead of a static variable in an object, a method would be a formula as a variable
 ```
-variable.toUpperCase(); //a basic method
+let message = "Hello";
+message = message.toUpperCase(); //this is manipulation
+console.log(message); //shows 'HELLO'
 
 Number(stringName) - Change a string into a number
 prompt("displayText") - popup prompt to enter value
@@ -181,7 +169,9 @@ this stores the entered prompt value into the variable 'first'
   - Resources: 
     - Methods: big list on left panel
       - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+      - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods
       - https://www.w3schools.com/js/js_string_methods.asp
+      - https://www.w3schools.com/jsref/jsref_obj_string.asp
 
 ### Section 1.1
 snippets to help
