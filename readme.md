@@ -9,7 +9,8 @@ Currently, I've gotten stuck at certain points within two different javascript l
   - [Table of Contents](#table-of-contents)
     - [Learning Process](#learning-process)
   - [Section 1 - Basic Terminology and Structure](#section-1---basic-terminology-and-structure)
-      - [Terminology:](#terminology)
+      - [A. Terminology](#a-terminology)
+      - [B. Key Operators and Comparisons](#b-key-operators-and-comparisons)
     - [Section 1.1: Projects](#section-11-projects)
   - [Section 2: Program Flow](#section-2-program-flow)
     - [Section 2.1](#section-21)
@@ -47,7 +48,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
       - Write detailed comments on each section of code while learning
 
 ## Section 1 - Basic Terminology and Structure
-#### Terminology: ####
+#### A. Terminology ####
 - Operator vs Operand:
   - Operator: function that performs the operation
   - Operand: input to that operator function
@@ -57,7 +58,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
 - Concatenation:
   - When things are combined; join together
 
-**Key Operators and Comparisons**:
+#### B. Key Operators and Comparisons ####
 ```
 '==' is 'does A equal to B, regardless of type; true or false? ex: 1 == "1" is true
 '===' is 'does A equal to B,' including they type; true or false? ex: 1 === "1" is false
