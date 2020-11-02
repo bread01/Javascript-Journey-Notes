@@ -42,7 +42,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
 - [Javascript Journey Notes](#javascript-journey-notes)
     - [Learning Process](#learning-process)
   - [Table of Contents](#table-of-contents)
-    - [Section 1 - Comparisons, Operators, Variables](#section-1---comparisons-operators-variables)
+    - [Section 1 - Basic Terminology and Structure](#section-1---basic-terminology-and-structure)
     - [Section 1.1](#section-11)
     - [Section 1.1.1](#section-111)
     - [Section 2](#section-2)
@@ -50,7 +50,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
     - [Section 2.2](#section-22)
 
 
-### Section 1 - Comparisons, Operators, Variables
+### Section 1 - Basic Terminology and Structure
 **Terminology:**
 - Operator vs Operand:
   - Operator: function that performs the operation
@@ -66,8 +66,8 @@ Concatenation:
 '==' is 'does A equal to B, regardless of type; true or false? ex: 1 == "1" is true
 '===' is 'does A equal to B,' including they type; true or false? ex: 1 === "1" is false
 '!==' is 'does A not equal to B'; true or false?
-'++' is an increment +1
-'--' is a decrement -1
+'++' is an increment +1; matters if before or after variable
+'--' is a decrement -1; matters if before or after variable
 '**' puts variable to the power of second operator
 '%' is a remainder of division calculation
 '&&' means And
@@ -83,19 +83,91 @@ Concatenation:
       - https://www.w3schools.com/js/js_numbers.asp
       - https://www.w3schools.com/js/js_arithmetic.asp
       - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math
+    - Operator Precedence
+      - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 
 **Key Syntax for Variables:**
 - With ES6, use 'let' and 'const' instead of 'var'
-  - const: identifier that *can't* be updated/re-declared. Best for assigning variable throughout document, outside of block {}. Block scoped{} just like 'let'
-  - let: *can* be updated/re-declared; only used in block {} it's defined in. Best for loops and algorithms.
+  - const: identifier that *can't* be updated/re-declared. Best for assigning variable throughout document. Block scoped{} just like 'let'
+  - let: *can* be updated/re-declared, but only in same block {} it's defined in. Best for loops and algorithms. For a real world example, having a base price on ecommerce site using 'let', and altering it later on via sales.
 ```
 let <variableName> = "output text" + "something";
 this means 'variableName' is the sum of those two
 
+i.e.
+let a = b;
+can be changed to bz without specifing 'let'
+a = a + z;
+console.log(a); //equals bz
+
 don't forget to call the variable name for its output
 ```
+  - Resources: 
+    - Variables:
+      - https://javascript.info/variables
 
-**Variables:**
+**Key Syntax for Strings:**
+- Utilize "" instead of '' for quotes and text for ease-of-life
+- ` ` can be used for quotes but includes whitespace and strings
+```
+let userName = `Andrea
+is great`;
+//gives value 'Andrea
+//is great'
+```
+
+**String Manipulation:**
+- Adding properties and methods to strings by string.command
+```
+let message = "Hello";
+message = message.toUpperCase(); //this is manipulation
+console.log(message); //shows 'HELLO'
+```
+  - Resources: 
+    - Strings:
+      - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+      - https://www.w3schools.com/js/js_string_methods.asp
+      - https://www.w3schools.com/jsref/jsref_obj_string.asp
+      - https://www.w3schools.com/js/js_string_methods.asp
+      - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods
+
+**Objects:**
+- Like a variable but with properties and methods. Think of a file cabinet where the drawer is labeled, and each folder in the drawer is a property value of that drawer(object).
+  - Object is car
+    - i.e. let car
+  - Properties would be weight and color
+    - i.e. car.color = white
+  - Methods would be start and stop
+    - i.e. car.stop
+```
+//can be written multiple ways
+var myCar = {
+    make: 'Ford',
+    model: 'Mustang',
+    year: 1969
+};
+//or
+var myCar = new Object();
+myCar.make = 'Ford';
+myCar.model = 'Mustang';
+myCar.year = 1969;
+//or
+var car = {type:"Fiat", model:"500", color:"white"};
+
+//can call object like so
+myCar[make]; //Ford
+//or
+myCar.make;
+```
+  - Resources: 
+    - Objects:
+      - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
+      - https://www.w3schools.com/js/js_objects.asp
+      - https://javascript.info/object
+
+**Methods:**
+- Actions that are performed as variables
+  - for example, instead of a static variable in an object, a method would be a formula as a variable
 ```
 Number(stringName) - Change a string into a number
 prompt("displayText") - popup prompt to enter value
@@ -104,10 +176,6 @@ alert("displayText") - popup alert to display text
 ex: let first = prompt("enter first number");
 this stores the entered prompt value into the variable 'first'
 ```
-  - Resources: 
-    - Variables:
-      - https://javascript.info/variables
-
 
 ### Section 1.1
 snippets to help
