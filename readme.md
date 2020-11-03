@@ -8,7 +8,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
 - [Javascript Journey Notes](#javascript-journey-notes)
   - [Table of Contents](#table-of-contents)
     - [Learning Process](#learning-process)
-  - [Section 1 - Basic Terminology and Structure](#section-1---basic-terminology-and-structure)
+  - [Section 1: Basic Terminology and Structure](#section-1-basic-terminology-and-structure)
       - [Terminology](#terminology)
       - [Key Operators and Comparisons](#key-operators-and-comparisons)
       - [Key Syntax for Variables](#key-syntax-for-variables)
@@ -28,24 +28,28 @@ Currently, I've gotten stuck at certain points within two different javascript l
         - https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery
      - Go through the same topic on The Odin Project
        - https://theodinproject.com/courses/foundations
-     - Go through same topic on Pluralsight Javascript: getting started course
+     - Go through same topic on Pluralsight and FrontEnd Masters Javascript courses
        - https://app.pluralsight.com/library/courses/javascript-getting-started/table-of-contents
+       - https://frontendmasters.com/courses/getting-started-javascript-v2/
      - Then go down these options:
        - https://www.youtube.com/watch?v=W6NZfCO5SIk
        - https://scotch.io/courses/getting-started-with-javascript-for-web-development/types-and-variables
        - https://edabit.com/tutorial/javascript
        - https://www.linkedin.com/learning/learning-the-javascript-language-2/learn-the-language-of-the-internet?u=2045532
        - https://www.rithmschool.com/courses/javascript
-       - https://www.codecademy.com/learn
        - https://www.coursera.org/learn/website-coding/home/week/3
        - https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/4
+   - **Check other people's notes**
+       - https://github.com/8483/notes
+       - https://docs.google.com/document/d/1SSa_gAnH_Eznn5GQrbnAXgAg89Ar-hYS9oGqonxDxH0/edit
+       - Read 'You Don't Know JS: up and going' pdf
    - **Quizzes/Exercises**
        - https://www.w3schools.com/js/exercise_js.asp
        - https://www.freecodecamp.org/learn/
        - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps
        - https://javascript.info/
-   - **Small Projects**
    - **Record logic in notes**
+   - **Small Projects**
   
   2. ***Active Process of Writing Code***
       - Write down logic in english
@@ -53,7 +57,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
       - console.log every step of the way to make sure it works
       - Write detailed comments on each section of code while learning
 
-## Section 1 - Basic Terminology and Structure
+## Section 1: Basic Terminology and Structure
 #### Terminology
 - Operator vs Operand:
   - Operator: function that performs the operation
