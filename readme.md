@@ -55,6 +55,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
   
 ### Active Process of Writing Code
 - Write down logic in english
+  - Write pseudocode in comment lines
 - Break down logic into small steps of code
 - console.log every step of the way to make sure it works
 - Write detailed comments on each section of code while learning
