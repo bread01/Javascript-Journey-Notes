@@ -8,6 +8,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
 - [Javascript Journey Notes](#javascript-journey-notes)
   - [Table of Contents](#table-of-contents)
     - [Learning Process](#learning-process)
+    - [Active Process of Writing Code](#active-process-of-writing-code)
   - [Section 1: Basic Terminology and Structure](#section-1-basic-terminology-and-structure)
       - [Terminology](#terminology)
       - [Key Operators and Comparisons](#key-operators-and-comparisons)
@@ -19,6 +20,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
     - [Section 1: Projects](#section-1-projects)
   - [Section 2: Program Flow](#section-2-program-flow)
       - [Conditionals: if...else](#conditionals-ifelse)
+      - [Functions](#functions)
     - [Section 2: Projects](#section-2-projects)
     - [Section 2: Snippets](#section-2-snippets)
 
@@ -46,17 +48,16 @@ Currently, I've gotten stuck at certain points within two different javascript l
    - **Quizzes/Exercises**
        - https://www.w3schools.com/js/exercise_js.asp
        - https://www.freecodecamp.org/learn/
-       - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps
        - https://javascript.info/
    - **Record logic in notes**
    - **Small Projects**
      - if I struggle on first project attempt and copy other people's code to get it to work, it's ok. But try to understand the parts that I copied. Then try to write the project again. And again.
   
-  2. ***Active Process of Writing Code***
-      - Write down logic in english
-      - Break down logic into small steps of code
-      - console.log every step of the way to make sure it works
-      - Write detailed comments on each section of code while learning
+### Active Process of Writing Code
+- Write down logic in english
+- Break down logic into small steps of code
+- console.log every step of the way to make sure it works
+- Write detailed comments on each section of code while learning
 
 ## Section 1: Basic Terminology and Structure
 #### Terminology
@@ -196,6 +197,7 @@ this stores the entered prompt value into the variable 'first'
 
 ## Section 2: Program Flow
 #### Conditionals: if...else
+- It is good to think of this as: 'is the variable True or False?' - this is what you are asking the computer
 - Should be referencing a variable, and posing an outcome for that variable
   - Then you have to give an action for that variable based on the outcome
 - For example:
@@ -207,12 +209,25 @@ if (name === "Billy") {
 ```
 - If we want another condition, then it is the same thing but utilizing 'else' as new brackets
   - but with the 'else' statement, we are only providing a different action, not another reference to the variable
+- As a note, we can also do multiple 'if' statements within each other, in a heirarchy-type format.
 ```
 if (name === "Billy") {
   alert("hi Billy!");
 } else {
   alert("you are not Billy");
 }
+
+//we can also change a variable as the outcome to the true/false question
+let accessAllowed;
+let age = prompt('How old are you?', '');
+
+if (age > 18) {
+  accessAllowed = true;
+} else {
+  accessAllowed = false;
+}
+
+alert(accessAllowed);
 ```
 - If we have multiple outcomes for the same question, we use 'if else'
   - notice how the 'else if' reference to the variable is before the brackets for the action
@@ -233,14 +248,42 @@ if (name === "Billy" || name === "Suzy") {
   alert("Hi Billy or Suzy");
 }
 
-'And' is good for checking multiple variables
+//'And' is good for checking multiple variables
 if (firstName === "Bob" && lastName === "Smith") {
   alert("Hi Bob Smith");
 }
 ```
+- Switch statements are an alternative for going through multiple conditions until it reaches a 'True' status
+  - this uses 'break;' at end of statement
+```
+const grade = 87;
+switch (true) {
+  // if score is 90 or greater
+  case grade >= 90:
+    console.log("A");
+    break;
+  // if score is 80 or greater
+  case grade >= 80:
+    console.log("B");
+    break;
+  // anything 79 or below is failing
+  default:
+    console.log("F");
+}
+```
   - Program Flow: 
+    - Overview:
+      - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals
+      - https://javascript.info/ifelse
+    - Comparisons:
+      - https://javascript.info/comparison
     - Logical Operators:
       - https://javascript.info/logical-operators
+    - Switch Statement:
+      - https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript
+      - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
+
+#### Functions
 
 ### Section 2: Projects
 
