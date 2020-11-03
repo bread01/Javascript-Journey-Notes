@@ -226,6 +226,8 @@ if (name === "Billy") {
 }
 ```
 - Given this can end up in a very long code, we can shorten it using Logical Operators; i.e. Or, And, etc
+  - operators like '!' can return an opposite true/false value, which is good for things like switches
+    - is switch on? !true/!false, then do opposite
 ```
 if (name === "Billy" || name === "Suzy") {
   alert("Hi Billy or Suzy");
@@ -235,7 +237,6 @@ if (name === "Billy" || name === "Suzy") {
 if (firstName === "Bob" && lastName === "Smith") {
   alert("Hi Bob Smith");
 }
-
 ```
   - Program Flow: 
     - Logical Operators:
