@@ -196,7 +196,50 @@ this stores the entered prompt value into the variable 'first'
 
 ## Section 2: Program Flow
 #### Conditionals: if...else
-- blurgh
+- Should be referencing a variable, and posing an outcome for that variable
+  - Then you have to give an action for that variable based on the outcome
+- For example:
+```
+let name = "Billy";
+if (name === "Billy") {
+  alert("hi Billy!");
+}
+```
+- If we want another condition, then it is the same thing but utilizing 'else' as new brackets
+  - but with the 'else' statement, we are only providing a different action, not another reference to the variable
+```
+if (name === "Billy") {
+  alert("hi Billy!");
+} else {
+  alert("you are not Billy");
+}
+```
+- If we have multiple outcomes for the same question, we use 'if else'
+  - notice how the 'else if' reference to the variable is before the brackets for the action
+```
+if (name === "Billy") {
+  alert("hi Billy!");
+} else if (name === "Suzy") {
+  alert("hi Suzy");
+} else {
+  alert("you are not Billy or Suzy");
+}
+```
+- Given this can end up in a very long code, we can shorten it using Logical Operators; i.e. Or, And, etc
+```
+if (name === "Billy" || name === "Suzy") {
+  alert("Hi Billy or Suzy");
+}
+
+'And' is good for checking multiple variables
+if (firstName === "Bob" && lastName === "Smith") {
+  alert("Hi Bob Smith");
+}
+
+```
+  - Program Flow: 
+    - Logical Operators:
+      - https://javascript.info/logical-operators
 
 ### Section 2: Projects
 
