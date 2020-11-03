@@ -50,6 +50,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
        - https://javascript.info/
    - **Record logic in notes**
    - **Small Projects**
+     - if I struggle on first project attempt and copy other people's code to get it to work, it's ok. But try to understand the parts that I copied. Then try to write the project again. And again.
   
   2. ***Active Process of Writing Code***
       - Write down logic in english
