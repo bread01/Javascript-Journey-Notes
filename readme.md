@@ -386,7 +386,7 @@ console.log(userName); //Bob
 
 ### Section 2: Projects
 - [Keyless Car] (https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/Keyless-Car)
-- [Keyless Car Improvement] ()
+- [Keyless Car Improvement] (https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/Keyless-Car-Improvement)
 
 ### Section 2: Snippets
 
