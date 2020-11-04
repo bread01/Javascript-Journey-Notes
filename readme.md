@@ -23,6 +23,10 @@ Currently, I've gotten stuck at certain points within two different javascript l
       - [Functions](#functions)
     - [Section 2: Projects](#section-2-projects)
     - [Section 2: Snippets](#section-2-snippets)
+  - [Section 3:](#section-3)
+      - [Advanced JS](#advanced-js)
+    - [Section 2: Projects](#section-2-projects-1)
+    - [Section 2: Snippets](#section-2-snippets-1)
 
 ### Learning Process
   1. ***Documentation***: Two minimum for logic understanding
@@ -286,6 +290,7 @@ switch (true) {
 
 #### Functions
 - The point of functions is to have actions bundled up so we can just call it in the future
+  - We need actions bundled due to scope - i.e. multiple javascript files that may call the same action or name. This helps us prevent issues, from both calling name's and security.
 - Reading a function goes like this:
   - 'alert()' means: 'to execute alert, do whatever is inside ()' - i.e. () = calling the function (arguments)
 - If I want the function to execute, I have to call it
@@ -294,6 +299,7 @@ switch (true) {
     - describe the input elements of the function
   - Arguments: multiply(4,5) //the 4,5 are arguments, in relation to the parameters
     - functions get called with 'arguments'
+- A function needs a 'return' statement, or it is 'undefined'
 ```
 function sayHello() {
   console.log("Hello");
@@ -302,7 +308,8 @@ sayHello(); //calling the function, similar to variables
 ```
 - function expression is slightly different, assigning a function to a variable
 ```
-let sayBye = function() { //anonymous function due to no name
+//anonymous function due to no name for function itself, though it's good to give name to function for debugging
+let sayBye = function() { //could do something like 'function name()'
     console.log("Bye");
 }
 sayBye();
@@ -310,11 +317,18 @@ sayBye();
 - The power in functions is adding arguments to reduce repeating ourselves
 ```
 function sing(song) {   
-    console.log(song);
+    console.log(song); //logs the song input that is defined later
 }
 sing("Laa dee daa");  //read like sing(song)
 sing("helloooo");     //when sing is called,() = song input
 
+//another example
+function favoriteAnimal(animal) {
+  console.log(animal + "is my favorite animal");
+}
+favoriteAnimal('Goat');
+
+//another example
 function multiply(a, b) {
   return a * b;
 }
@@ -343,6 +357,41 @@ let abZ = function multiply(a,b) { //can remove 'multiply' term
 }
 abZ (5, 10);
 ```
+- functions can access outer variables as well
+```
+let userName = "John";
+function showMessage() {
+  let message = "Hello, " + userName;
+  alert(message);
+}
+showMessage(); //Hello, John
+
+//can change the outside variable as well
+let userName = "John";
+function showMessage() {
+  userName = "Bob";
+  let message = "Hello, " + userName;
+  alert(message);
+}
+showMessage(); //Hello, Bob
+console.log(userName); //Bob
+```
+  - Functions: 
+    - Overview:
+      - https://javascript.info/function-basics
+      - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions
+      - https://javascript.info/function-expressions
+    - Arrow Functions:
+      - https://javascript.info/arrow-functions-basics
+
+### Section 2: Projects
+
+### Section 2: Snippets
+
+
+
+## Section 3: 
+#### Advanced JS
 
 ### Section 2: Projects
 
