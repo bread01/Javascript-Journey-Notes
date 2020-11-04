@@ -385,8 +385,9 @@ console.log(userName); //Bob
       - https://javascript.info/arrow-functions-basics
 
 ### Section 2: Projects
-- [Keyless Car] (https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/Keyless-Car)
-- [Keyless Car Improvement] (https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/Keyless-Car-Improvement)
+- [Keyless Car](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/Keyless-Car)
+- [Keyless Car Improvement](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/Keyless-Car-Improvement)
+- [The Odin Project Problems]()
 
 ### Section 2: Snippets
 
