@@ -285,6 +285,64 @@ switch (true) {
       - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
 
 #### Functions
+- The point of functions is to have actions bundled up so we can just call it in the future
+- Reading a function goes like this:
+  - 'alert()' means: 'to execute alert, do whatever is inside ()' - i.e. () = calling the function (arguments)
+- If I want the function to execute, I have to call it
+- Terminology:
+  - Parameters: multiply(a,b) //the a,b are Parameters
+    - describe the input elements of the function
+  - Arguments: multiply(4,5) //the 4,5 are arguments, in relation to the parameters
+    - functions get called with 'arguments'
+```
+function sayHello() {
+  console.log("Hello");
+}
+sayHello(); //calling the function, similar to variables
+```
+- function expression is slightly different, assigning a function to a variable
+```
+let sayBye = function() { //anonymous function due to no name
+    console.log("Bye");
+}
+sayBye();
+```
+- The power in functions is adding arguments to reduce repeating ourselves
+```
+function sing(song) {   
+    console.log(song);
+}
+sing("Laa dee daa");  //read like sing(song)
+sing("helloooo");     //when sing is called,() = song input
+
+function multiply(a, b) {
+  return a * b;
+}
+console.log(multiply(5, 10));
+```
+- In the above example:
+  - the input is (a, b)
+  - the function gives an action of what to do once the input is defined
+    - by adding 'return', that just returns the value of the input
+      - remember that adding 'return' is the final way to end a function, so multiple 'return's' will only execute the first one
+
+- Adding an 'if statement' shows a good example of function execution and input
+```
+function multiply(a,b) {
+  if (a > 10 || b > 10) {
+      return "that's too hard";
+  } else {
+      return a * b;
+  }
+}
+console.log(multiply(5, 10));
+
+//can turn the same function into a variable by just adding it before the function call
+let abZ = function multiply(a,b) { //can remove 'multiply' term
+  same as above
+}
+abZ (5, 10);
+```
 
 ### Section 2: Projects
 
