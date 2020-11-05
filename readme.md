@@ -469,7 +469,7 @@ console.log(userName); //Bob
 - [Keyless Car](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/Keyless-Car)
 - [Keyless Car Improvement](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/Keyless-Car-Improvement)
 - [The Odin Project Problems](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/odin-project-problems-part3)
-- [Facebook News Feed]()
+- [Facebook News Feed](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/facebook-newsfeed-buildalong)
 
 ### Section 2: Snippets
 
