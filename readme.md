@@ -22,7 +22,6 @@ Currently, I've gotten stuck at certain points within two different javascript l
   - [Section 2: Program Flow](#section-2-program-flow)
       - [Conditionals: if...else](#conditionals-ifelse)
       - [Functions](#functions)
-      - [Data Stucture: Objects](#data-stucture-objects)
       - [Loops](#loops)
     - [Section 2: Projects](#section-2-projects)
     - [Section 2: Snippets](#section-2-snippets)
@@ -175,6 +174,7 @@ let database = [
     }
 ];
 ```
+
 - Resources: 
   - Arrays:
     - https://www.w3schools.com/js/js_arrays.asp
@@ -236,6 +236,11 @@ myCar.sound(); //"AHHHH"
 let message = "Hello";
 message = message.toUpperCase(); //this is manipulation
 console.log(message); //shows 'HELLO'
+
+//application to array
+const values = ['a', 'b', 'c'];
+console.log(values.indexOf('c')); //2
+console.log(values.indexOf('d')); //-1
 ```
   - Resources: 
     - Methods: big list on left panel
@@ -456,20 +461,131 @@ console.log(userName); //Bob
       - https://javascript.info/arrow-functions-basics
 
 
-  
-
-
-
-
-#### Data Stucture: Objects
-
 #### Loops
+- The 'for loop' is most common
+- these are typically run when we know the specific amount of times to run through the data
+```
+//syntax
+for (begin; condition; step) {
+  // ... loop body ...
+}
+
+//examples below
+//array with 5 variables
+let todos = [
+    "clean room",
+    "brush teeth",
+    "exercise",
+    "study javascript",
+    "eat healthy",
+];
+
+//'for' says 'we are going to do a loop'
+//i is typically used as a variable in a loop(index)
+    //this means 'i' starts at 0
+//i<todos.length tells the loop when to stop
+//says if 0 < 5, run this loop and add 1 to 'i'
+for (let i=0; i < todos.length; i++) {
+    console.log(i);
+}
+
+//using same example, if we want to print every part of the array, we can reference the 'i'(index) now
+for (let i=0; i < todos.length; i++) {
+    console.log(todos[i]);
+}
+
+//so if we now wanted to add something to everything in the array, we combine it with output
+  //just fyi, this doesn't change the actual array, just the output
+for (let i=0; i < todos.length; i++) {
+    console.log(todos[i] + "!");
+}
+
+//if we want to actually change the array items
+//this reads 'clean room = clean room + !'
+for (let i=0; i < todos.length; i++) {
+    todos[i] = todos[i] + "!";
+}
+console.log(todos);
+```
+- Loops will loop over a value of a variable, meaning that if a variable counts an array, and the loop runs *after* the variable is executed, then referencing that variable will not change as the loop runs
+```
+//using the above example
+let todosLength = todos.Length; //counts 5
+for (let i=0; i < todosLength; i++) {
+    todos.pop(); //starts at 5 and clears list
+}
+```
+- 'while loops' have different formatting; more like a function
+- these are typically used when the loop runs an unknown number of times until condition is met
+```
+//syntax
+while (condition) {
+  // code
+  // so-called "loop body"
+}
+
+//example
+let counterOne = 0;
+while (counterOne < 10) {   //stops loop
+  console.log(counterOne);
+  counterOne++
+}
+```
+- 'do while loop' is very similar to 'while loop', but just checks condition in different order
+- meaning it will always run at least once, whereas a 'while loop' may fail that first run
+  - so if variable = 10, and counter < 10, the 'do while' will have one output of 10, and the 'while loop' will fail
+```
+let counterTwo = 10;
+do {
+  console.log(counterTwo);
+  counterTwo--;
+} while (counterTwo > 0);   //stops loop
+```
+- 'for each loop' is often used to make the code easier to read, instead of a standard 'for loop'
+- good cycling through an array
+```
+//array with 5 variables
+let todos = [
+    "clean room",
+    "brush teeth",
+    "exercise",
+    "study javascript",
+    "eat healthy",
+];
+
+todos.forEach(function(todo, i) {
+  console.log(todo, i);
+})
+
+//can write it a different way that might be a bit easier - i.e. keeping the function separate
+
+function logTodos(todo, i) {
+    console.log(todo, i);
+}
+todos.forEach(logTodos);
+
+//similar to forEach, but without loop command
+const values = ['a', 'bbb', 'c'];
+//method uses function as argument, in a variable
+const found = values.find(function(item) {
+    return item.length > 1;
+});
+console.log(found); //bbb
+
+//same example above but using forEach
+const values = ['a', 'b', 'c'];
+values.forEach(function(item) {
+  console.log(item);
+}); //a b c
+```
+
 
 ### Section 2: Projects
 - [Keyless Car](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/Keyless-Car)
 - [Keyless Car Improvement](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/Keyless-Car-Improvement)
 - [The Odin Project Problems](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/odin-project-problems-part3)
 - [Facebook News Feed](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/facebook-newsfeed-buildalong)
+- [Facebook Multiple Users] ()
 
 ### Section 2: Snippets
 
