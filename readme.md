@@ -21,6 +21,9 @@ Currently, I've gotten stuck at certain points within two different javascript l
   - [Section 2: Program Flow](#section-2-program-flow)
       - [Conditionals: if...else](#conditionals-ifelse)
       - [Functions](#functions)
+      - [Data Stucture: Arrays](#data-stucture-arrays)
+      - [Data Stucture: Objects](#data-stucture-objects)
+      - [Loops](#loops)
     - [Section 2: Projects](#section-2-projects)
     - [Section 2: Snippets](#section-2-snippets)
   - [Section 3:](#section-3)
@@ -333,6 +336,12 @@ function multiply(a, b) {
   return a * b;
 }
 console.log(multiply(5, 10));
+
+//another example
+function plusThree(num) {
+  return num + 3;
+}
+var answer = plusThree(5); // 8
 ```
 - In the above example:
   - the input is (a, b)
@@ -384,10 +393,48 @@ console.log(userName); //Bob
     - Arrow Functions:
       - https://javascript.info/arrow-functions-basics
 
+#### Data Stucture: Arrays
+- A way to organize multiple items in a list
+  - items are referenced as numbers, starting at 0. 
+    - the numbers in an array are called 'index'
+    - if uncertain about the numbers, console.log will give lots of info on the array when called
+```
+let list = ["tiger", "cat", "bear", "bird"];
+console.log(list[1]); //cat
+console.log(list[1][2]); //t -second bracket judges count from letters within the array item
+
+//can include various arguments, including functions, but advised to keep each array to same type
+let list = ["tiger", 3, true, function apple(){
+    console.log("apple");
+}];
+console.log(list[1]);
+```
+- can add methods to the arrays that are already built into javascript
+```
+let list = ["tiger", "cat", "bear", "bird"];
+console.log(list[1]);
+list.shift(); //tiger - pull up array again and tiger gone - everything shifts to left
+list.pop(); //bird - removes last item in array, just like shift
+list.push("elephant"); //3 - adds 'elephant' to end of array
+list.concat(["bee", "deer"]); //adds bee and deer to other array; combines them - best to assign this to a variable as it only combines in the output temporarily, and needs to be referenced
+list.sort(); //sorts alphabetically
+```
+- Data Structures: 
+    - Arrays:
+      - https://www.w3schools.com/jsref/jsref_obj_array.asp
+      - 
+
+
+
+
+#### Data Stucture: Objects
+
+#### Loops
+
 ### Section 2: Projects
 - [Keyless Car](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/Keyless-Car)
 - [Keyless Car Improvement](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/Keyless-Car-Improvement)
-- [The Odin Project Problems]()
+- [The Odin Project Problems](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/odin-project-problems-part3)
 
 ### Section 2: Snippets
 
