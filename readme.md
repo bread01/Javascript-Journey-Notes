@@ -14,14 +14,14 @@ Currently, I've gotten stuck at certain points within two different javascript l
       - [Key Operators and Comparisons](#key-operators-and-comparisons)
       - [Key Syntax for Variables](#key-syntax-for-variables)
       - [Key Syntax for Strings](#key-syntax-for-strings)
-      - [Objects](#objects)
+      - [Data Stucture: Arrays](#data-stucture-arrays)
+      - [Data Structure: Objects](#data-structure-objects)
       - [Methods and String Manipulation](#methods-and-string-manipulation)
       - [Interaction](#interaction)
     - [Section 1: Projects](#section-1-projects)
   - [Section 2: Program Flow](#section-2-program-flow)
       - [Conditionals: if...else](#conditionals-ifelse)
       - [Functions](#functions)
-      - [Data Stucture: Arrays](#data-stucture-arrays)
       - [Data Stucture: Objects](#data-stucture-objects)
       - [Loops](#loops)
     - [Section 2: Projects](#section-2-projects)
@@ -133,8 +133,55 @@ is great`;
 //gives value 'Andrea
 is great'
 ```
+#### Data Stucture: Arrays
+- A way to organize multiple items in a list - like an Object but without individual properties
+  - items are referenced as numbers, starting at 0. 
+    - the numbers in an array are called 'index'
+    - if uncertain about the numbers, console.log will give lots of info on the array when called
+```
+let list = ["tiger", "cat", "bear", "bird"];
+console.log(list[1]); //cat
+console.log(list[1][2]); //t -second bracket judges count from letters within the array item
 
-#### Objects
+//can include various arguments, including functions, but advised to keep each array to same type
+let list = ["tiger", 3, true, function apple(){
+    console.log("apple");
+}];
+console.log(list[1]);
+
+//can change item in array just like a variable
+var cars = ["Saab", "Volvo", "BMW"];
+cars[0] = "Opel";
+console.log(cars); //Open, Volvo, BMW
+```
+- can add methods to the arrays that are already built into javascript
+```
+let list = ["tiger", "cat", "bear", "bird"];
+console.log(list[1]);
+list.shift(); //tiger - pull up array again and tiger gone - everything shifts to left
+list.pop(); //bird - removes last item in array, just like shift
+list.push("elephant"); //3 - adds 'elephant' to end of array
+list.concat(["bee", "deer"]); //adds bee and deer to other array; combines them - best to assign this to a variable as it only combines in the output temporarily, and needs to be referenced
+list.sort(); //sorts alphabetically
+```
+- another way to write arrays includes objects within them - notice how objects are framed
+```
+//this is an array(database) that contains an object
+//notice how arrays use [] and objects {}
+let database = [
+    {
+    username: "John",
+    password: "Qwerty",
+    }
+];
+```
+- Resources: 
+  - Arrays:
+    - https://www.w3schools.com/js/js_arrays.asp
+  - Array Methods:
+    - https://www.w3schools.com/jsref/jsref_obj_array.asp
+
+#### Data Structure: Objects
 - Like a variable but with properties and methods. Think of a file cabinet where the drawer is labeled, and each folder in the drawer is a property value of that drawer(object).
   - Object is car
     - i.e. let car
@@ -161,6 +208,17 @@ var car = {type:"Fiat", model:"500", color:"white"};
 myCar[make]; //Ford
 //or
 myCar.make;
+
+//can assign an array to object
+//using above example..
+myCar.type = ["bmw", "toyota", "porsche"];
+//then i can reference myCar.type[0]; and get bmw
+
+//can add a function as a property
+myCar.sound = function() {
+    console.log("AHHHHH");
+}
+myCar.sound(); //"AHHHH"
 ```
   - Resources: 
     - Objects:
@@ -172,6 +230,8 @@ myCar.make;
 - Actions that are performed as variables
   - Adding properties and methods to strings by string.command
   - for example, instead of a static property in an object, a method would be an action as a property
+- Using the above example of 'myCar.sound', '.sound' is a method of 'myCar'.
+  - or '.log' is a method of 'console.log'
 ```
 let message = "Hello";
 message = message.toUpperCase(); //this is manipulation
@@ -193,14 +253,16 @@ alert("displayText") - popup alert to display text
 ex: let first = prompt("enter first number");
 this stores the entered prompt value into the variable 'first'
 ```
-  - Interaction: 
+  - Resources: 
     - Examples:
       - https://javascript.info/alert-prompt-confirm
       - https://javascript.info/type-conversions
 
 
 ### Section 1: Projects
-[Simple Prompt Calculator](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Section-1/Simple-Calculator)
+- [Simple Prompt Calculator](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Section-1/Simple-Calculator)
+- [Arrays with Methods](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/Arrays)
+- [Facebook Arrays Objects]()
 
 
 ## Section 2: Program Flow
@@ -279,7 +341,7 @@ switch (true) {
     console.log("F");
 }
 ```
-  - Program Flow: 
+  - Resources: 
     - Overview:
       - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals
       - https://javascript.info/ifelse
@@ -385,7 +447,7 @@ function showMessage() {
 showMessage(); //Hello, Bob
 console.log(userName); //Bob
 ```
-  - Functions: 
+  - Resources: 
     - Overview:
       - https://javascript.info/function-basics
       - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions
@@ -393,36 +455,8 @@ console.log(userName); //Bob
     - Arrow Functions:
       - https://javascript.info/arrow-functions-basics
 
-#### Data Stucture: Arrays
-- A way to organize multiple items in a list
-  - items are referenced as numbers, starting at 0. 
-    - the numbers in an array are called 'index'
-    - if uncertain about the numbers, console.log will give lots of info on the array when called
-```
-let list = ["tiger", "cat", "bear", "bird"];
-console.log(list[1]); //cat
-console.log(list[1][2]); //t -second bracket judges count from letters within the array item
 
-//can include various arguments, including functions, but advised to keep each array to same type
-let list = ["tiger", 3, true, function apple(){
-    console.log("apple");
-}];
-console.log(list[1]);
-```
-- can add methods to the arrays that are already built into javascript
-```
-let list = ["tiger", "cat", "bear", "bird"];
-console.log(list[1]);
-list.shift(); //tiger - pull up array again and tiger gone - everything shifts to left
-list.pop(); //bird - removes last item in array, just like shift
-list.push("elephant"); //3 - adds 'elephant' to end of array
-list.concat(["bee", "deer"]); //adds bee and deer to other array; combines them - best to assign this to a variable as it only combines in the output temporarily, and needs to be referenced
-list.sort(); //sorts alphabetically
-```
-- Data Structures: 
-    - Arrays:
-      - https://www.w3schools.com/jsref/jsref_obj_array.asp
-      - 
+  
 
 
 
