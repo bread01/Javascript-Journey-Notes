@@ -262,7 +262,7 @@ this stores the entered prompt value into the variable 'first'
 ### Section 1: Projects
 - [Simple Prompt Calculator](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Section-1/Simple-Calculator)
 - [Arrays with Methods](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/Arrays)
-- [Facebook Arrays Objects]()
+- [Facebook Arrays Objects](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-1/objects-arrays-facebook-app)
 
 
 ## Section 2: Program Flow
