@@ -14,7 +14,7 @@ Currently, I've gotten stuck at certain points within two different javascript l
       - [Key Operators and Comparisons](#key-operators-and-comparisons)
       - [Key Syntax for Variables](#key-syntax-for-variables)
       - [Key Syntax for Strings](#key-syntax-for-strings)
-      - [Data Stucture: Arrays](#data-stucture-arrays)
+      - [Data Structure: Arrays](#data-structure-arrays)
       - [Data Structure: Objects](#data-structure-objects)
       - [Methods and String Manipulation](#methods-and-string-manipulation)
       - [Interaction](#interaction)
@@ -49,12 +49,6 @@ Currently, I've gotten stuck at certain points within two different javascript l
        - https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/4
    - **Check other people's notes**
        - https://github.com/8483/notes
-       - https://docs.google.com/document/d/1SSa_gAnH_Eznn5GQrbnAXgAg89Ar-hYS9oGqonxDxH0/edit
-       - Read 'You Don't Know JS: up and going' pdf
-   - **Quizzes/Exercises**
-       - https://www.w3schools.com/js/exercise_js.asp
-       - https://www.freecodecamp.org/learn/
-       - https://javascript.info/
    - **Record logic in notes**
    - **Small Projects**
      - if I struggle on first project attempt and copy other people's code to get it to work, it's ok. But try to understand the parts that I copied. Then try to write the project again. And again.
@@ -132,7 +126,7 @@ is great`;
 //gives value 'Andrea
 is great'
 ```
-#### Data Stucture: Arrays
+#### Data Structure: Arrays
 - A way to organize multiple items in a list - like an Object but without individual properties
   - items are referenced as numbers, starting at 0. 
     - the numbers in an array are called 'index'
@@ -242,12 +236,12 @@ const values = ['a', 'b', 'c'];
 console.log(values.indexOf('c')); //2
 console.log(values.indexOf('d')); //-1
 ```
-  - Resources: 
-    - Methods: big list on left panel
-      - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
-      - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods
-      - https://www.w3schools.com/js/js_string_methods.asp
-      - https://www.w3schools.com/jsref/jsref_obj_string.asp
+- Resources: 
+  - Methods: big list on left panel
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+    - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods
+    - https://www.w3schools.com/js/js_string_methods.asp
+    - https://www.w3schools.com/jsref/jsref_obj_string.asp
 
 #### Interaction
 ```
@@ -258,10 +252,10 @@ alert("displayText") - popup alert to display text
 ex: let first = prompt("enter first number");
 this stores the entered prompt value into the variable 'first'
 ```
-  - Resources: 
-    - Examples:
-      - https://javascript.info/alert-prompt-confirm
-      - https://javascript.info/type-conversions
+- Resources: 
+  - Examples:
+    - https://javascript.info/alert-prompt-confirm
+    - https://javascript.info/type-conversions
 
 
 ### Section 1: Projects
@@ -346,17 +340,18 @@ switch (true) {
     console.log("F");
 }
 ```
-  - Resources: 
-    - Overview:
-      - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals
-      - https://javascript.info/ifelse
-    - Comparisons:
-      - https://javascript.info/comparison
-    - Logical Operators:
-      - https://javascript.info/logical-operators
-    - Switch Statement:
-      - https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript
-      - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
+- Resources: 
+  - Overview:
+    - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals
+    - https://javascript.info/ifelse
+  - Comparisons:
+    - https://javascript.info/comparison
+  - Logical Operators:
+    - https://javascript.info/logical-operators
+  - Switch Statement:
+    - https://javascript.info/switch
+    - https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
 
 #### Functions
 - The point of functions is to have actions bundled up so we can just call it in the future
@@ -452,13 +447,13 @@ function showMessage() {
 showMessage(); //Hello, Bob
 console.log(userName); //Bob
 ```
-  - Resources: 
-    - Overview:
-      - https://javascript.info/function-basics
-      - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions
-      - https://javascript.info/function-expressions
-    - Arrow Functions:
-      - https://javascript.info/arrow-functions-basics
+- Resources: 
+  - Overview:
+    - https://javascript.info/function-basics
+    - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions
+    - https://javascript.info/function-expressions
+  - Arrow Functions:
+    - https://javascript.info/arrow-functions-basics
 
 
 #### Loops
@@ -516,7 +511,8 @@ for (let i=0; i < todosLength; i++) {
 }
 ```
 - 'while loops' have different formatting; more like a function
-- these are typically used when the loop runs an unknown number of times until condition is met
+- these are typically used when the loop runs an unknown number of times until condition is met; generally true/false statements over numbers
+- the way to read these is that the loop runs *while* the variable condition is still true
 ```
 //syntax
 while (condition) {
@@ -578,6 +574,10 @@ values.forEach(function(item) {
   console.log(item);
 }); //a b c
 ```
+- Resources: 
+  - Overview:
+    - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code
+    - https://javascript.info/while-for
 
 
 ### Section 2: Projects
@@ -586,6 +586,7 @@ values.forEach(function(item) {
 - [The Odin Project Problems](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/odin-project-problems-part3)
 - [Facebook News Feed](https://github.com/bread01/Javascript-Journey-Notes/tree/main/Projects/Section-2/facebook-newsfeed-buildalong)
 - [Facebook Multiple Users] ()
+
 
 ### Section 2: Snippets
 
